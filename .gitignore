@@ -1,0 +1,15 @@
+
+config.txt
+
+
+aruco_log_*.csv
+*.log
+
+
+venv/
+env/
+.env
+
+
+__pycache__/
+*.pyc
