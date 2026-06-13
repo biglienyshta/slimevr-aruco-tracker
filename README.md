@@ -55,15 +55,15 @@ python main.py
 
 Follow these steps to configure the tracker for the first time:
 
-Camera Index: Find your camera by selecting the correct number in the Camera Index field (0 is usually the default webcam, 1 for the secondary, etc.).
+1. Camera Index: Find your camera by selecting the correct number in the Camera Index field (0 is usually the default webcam, 1 for the secondary, etc.).
 
-Marker Size: Enter the physical size of your printed ArUco marker in the Marker Size (mm) field.
+2. Marker Size: Enter the physical size of your printed ArUco marker in the Marker Size (mm) field.
 
 How to measure: Measure the exact length of the outer black square border, not the inner white pattern.
 
-Marker IDs: Enter the IDs of the markers you are using in the Marker IDs field, separated by commas (e.g., 1, 2, 3).
+3. Marker IDs: Enter the IDs of the markers you are using in the Marker IDs field, separated by commas (e.g., 1, 2, 3).
 
-Camera Calibration: * Print the charuco_5x7_calibration.pdf file at exactly 100% scale.
+4. Camera Calibration: * Print the charuco_5x7_calibration.pdf file at exactly 100% scale.
 
 Click the 📷 CALIBRATE button.
 
@@ -71,15 +71,15 @@ Take at least 10 photos of the board in different parts of the frame by pressing
 
 Press ENTER to save the results.
 
-Tuning Filters: * Click 👁 Preview.
+5. Tuning Filters: * Click 👁 Preview.
 
 Move the marker around to find the extreme angles where tracking starts to degrade, and input these limits into Min Angle and Max Angle.
 
 Step away from the camera to find the distance where the marker becomes unstable, and enter the perimeter size shown on the screen into Min Perim.
 
-Start Tracking: Click ▶ START to begin the headless tracking process.
+6. Start Tracking: Click ▶ START to begin the headless tracking process.
 
-SlimeVR Sync: In SlimeVR, perform a Full Reset while showing the active markers to the camera to align the tracking spaces.
+7. SlimeVR Sync: In SlimeVR, perform a Full Reset while showing the active markers to the camera to align the tracking spaces.
 
 ⚙️ Additional Features
 
